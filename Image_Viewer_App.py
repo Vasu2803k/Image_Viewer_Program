@@ -6,7 +6,7 @@ from PIL import ImageTk, Image
 root = Tk()
 
 root.title("Image Viewer")
-root.iconbitmap('D:\SDE\Py\Bookshop_icon_2.ico')
+root.iconbitmap('D:\SDE\Py\Image_icon.ico')
 my_img=ImageTk.PhotoImage(Image.open("D:\SDE\Py\Images\img.jpg"))
 
 #my_img1=ImageTk.PhotoImage(Image.open("Saved_Pics/cmp.jpg"))
